@@ -97,7 +97,7 @@ key.prototype = {
                 for (var i = 0; i < that.divs.length; i++) {
                    
                    if (that.divs[i].offsetTop >= document.body.offsetHeight) {
-                        alert(that.divs.length)
+                       
                         ci++
                         document.documentElement.removeChild(that.divs[i]);
                         that.divs.splice(i,1);
